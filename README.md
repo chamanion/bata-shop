@@ -17,3 +17,4 @@ Technology we use to build this project:
 - MongoDB
 - React hook form
 - React Rating
+- other
