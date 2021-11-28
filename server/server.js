@@ -126,7 +126,7 @@ async function run() {
       res.json(result);
     });
 
-    //# add a new product: post api
+    //# add a new product: post ApI
     app.post("/addProduct", async (req, res) => {
       const result = await product_collection.insertOne(req.body);
       res.json(result);
